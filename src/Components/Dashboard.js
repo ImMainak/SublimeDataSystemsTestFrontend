@@ -48,7 +48,7 @@ function Dashboard() {
                 <button className='btn btn-primary' style={{marginLeft: '88%'}} onClick={() => handlePageChange(currentPage + 1)} disabled={currentPage < Math.ceil(totalCustomers / (currentPage * 10)) ? false : true}>Next</button>
             </div>
 
-            <Link className='btn btn-primary mt-3' to='city'>Check City Details</Link>
+            <Link className='btn btn-primary mt-3' to='city' target="_blank">Check City Details</Link>
         </div>
     )
 }
